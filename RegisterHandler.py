@@ -8,8 +8,7 @@ from messsage import message
 
 def generate_verification_code(len=6):
  ''' 随机生成6位的验证码 '''
- # 注意： 这里我们生成的是0-9A-Za-z的列表，当然你也可以指定这个list，这里很灵活
- # 比如： code_list = ['P','y','t','h','o','n','T','a','b'] # PythonTab的字母
+ # 注意： 这里我们生成的是0-9的列表，当然你也可以指定这个list，这里很灵活
  code_list = []
  for i in range(10): # 0-9数字
   code_list.append(str(i))
