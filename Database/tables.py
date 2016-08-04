@@ -97,6 +97,13 @@ class AppointmentRegister(Base):  # 记录每个约拍的报名人
     registerID = Column(Integer, ForeignKey('User.userID',  onupdate='CASCADE', ondelete='CASCADE'))  #
 
 
+class Verification(Base):#记录每个用户的验证码和手机
+    __tablename__="Verification"
+
+    phone=Column(VARCHAR(11),primary_key=True)#手机号码，且为主键
+    verificationcode=Column(VARCHAR(6))
+
+
 
 
 

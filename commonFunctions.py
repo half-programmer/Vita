@@ -1,5 +1,6 @@
-# coding=utf-8
 
+# coding=utf-8
+from  BaseHandlerh import BaseHandler
 def commit(self,retjson):
     try:
         self.db.commit()  #  retjson默认为成功情况内容
