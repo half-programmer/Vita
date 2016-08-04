@@ -11,6 +11,8 @@ from AppointmentsAskHandler import AskAppointment
 from  Database.tables import Activity,ActivityParticipate,Appointment,AppointmenmtEntry,AppointmentRegister,Estimation,Style,User
 from AppointmentHandler import CreateAppointment,RegistAppointment
 from RegisterHandler import RegisterHandler
+from ActivityHandler import ActivityCommit,ActivityJoin
+from ActivityAskHandler import AskActivity
 
 define("port", default=800, help="run on the given port", type=int)
 
@@ -21,7 +23,10 @@ class Application(tornado.web.Application):
             (r"/appointment/create", CreateAppointment),
             (r"/appointment/ask", AskAppointment),
             (r"/appointment/register",RegistAppointment),
-            (r"/regist", RegisterHandler)
+            (r"/regist", RegisterHandler),
+            (r"/Activity/create", ActivityCommit),
+            (r"/Activity/ask", AskActivity),
+            (r"/Activity/register", ActivityJoin),
         ]
         tornado.web.Application.__init__(self, handlers)
         self.db = scoped_session(sessionmaker(bind=engine,
