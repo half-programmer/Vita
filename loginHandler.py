@@ -15,15 +15,29 @@ class LoginHandler(BaseHandler):
             retjson['code'] = 400
             retjson['content'] = u'用户名密码不能为空'
             retjson = {'code': '400', 'content': 'None'}
+
         # 防止重复注册
         else:
             try:
                 user = self.db.query(User).filter(User.phone == m_phone).one()
-                if user:
+                if user:  # 用户存在
                     password = user.password
-                    if m_password == password:
+                    if m_password == password:  # 密码正确
                         retjson['code'] = 200
-                        retjson['content'] = u'登录成功'
+                        retdata = []
+                        data = dict(
+                            huodong="待加入"
+
+                        )
+
+                        retjson['content'] = 10101
+
+                    else:
+                        retjson['content'] = 10104  # 密码错误
+                else:  # 用户不存在
+                    retjson['content'] = 10103
+
+
 
             except: # 还没有注册
                 retjson['code'] = 400

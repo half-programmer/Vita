@@ -23,6 +23,7 @@ class User(Base): # 用户表
     location = Column(VARCHAR(128))  # 住址
     birthday = Column(DateTime)  # 生日
     phone = Column(VARCHAR(11))  # 手机
+    regist_time = Column(DateTime)  # 注册时间
 
 
 class Activity(Base):
@@ -30,6 +31,7 @@ class Activity(Base):
 
     activityID = Column(Integer, nullable=False, primary_key=True)
     sponsorID = Column(Integer, ForeignKey('User.userID',  onupdate='CASCADE'),nullable=False )  # 发起人,外健
+    sponsor_time = Column(DateTime)  # 发起时间
     activity_name = Column(VARCHAR(128), nullable=False)
     activity_introduction = Column(VARCHAR(256), nullable=False)  #活动介绍
     type = Column(VARCHAR(64))  # 约拍类型
@@ -49,7 +51,6 @@ class ActivityParticipate(Base):  #活动参与者的集合
     activityID = Column(Integer, ForeignKey('Activity.activityID',  onupdate='CASCADE'))
 
 
-
 class Style(Base):  # 约拍风格
     __tablename__ = 'Style'
 
@@ -65,7 +66,7 @@ class Estimation(Base):  # 摄影师-模特约拍评价表
     beestied_userID = Column(Integer, nullable=False)  # 被评价的
     score = Column(Integer, nullable=False)
     appointmentID = Column(Integer, ForeignKey('Appointment.appointmentID', onupdate='CASCADE'), nullable=False)
-
+    esti_time = Column(DateTime)  # 评价时间
 
 class Appointment(Base):  #摄影师-模特约拍
     __tablename__ = 'Appointment'
@@ -80,6 +81,7 @@ class Appointment(Base):  #摄影师-模特约拍
     self_introduction = Column(VARCHAR(128))
     styleID = Column(Integer, ForeignKey('Style.styleID', ondelete='CASCADE'))
     closed = Column(Boolean)
+    create_time = Column(DateTime)  # 创建时间
     imageurl = Column(VARCHAR(128))
 
 class AppointmenmtEntry(Base):  # 每次约拍参与者
@@ -95,7 +97,7 @@ class AppointmentRegister(Base):  # 记录每个约拍的报名人
 
     appointmentID = Column(Integer, ForeignKey('Appointment.appointmentID',  onupdate='CASCADE', ondelete='CASCADE'), primary_key=True) # todo 改主键待定义
     registerID = Column(Integer, ForeignKey('User.userID',  onupdate='CASCADE', ondelete='CASCADE'))  #
-
+    regist_time = Column(DateTime)  # 报名时间
 
 class Verification(Base):#记录每个用户的验证码和手机
     __tablename__="Verification"
