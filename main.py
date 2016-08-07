@@ -14,7 +14,6 @@ from RegisterHandler import RegisterHandler
 from ActivityHandler import ActivityCommit,ActivityJoin
 from ActivityAskHandler import AskActivity
 
-
 define("port", default=800, help="run on the given port", type=int)
 
 

@@ -27,6 +27,7 @@ class RegisterHandler(BaseHandler):
                 if user:
                     self.retjson['content'] = u"该手机号已经被注册，请更换手机号或直接登录"
                     self.retjson['code']=10005
+
             except:
                 code=generate_verification_code()
                 veri=Verification(
@@ -49,6 +50,7 @@ class RegisterHandler(BaseHandler):
             try:
                item=self.db.query(Verification).filter(Verification.phone==m_phone).one()
                if item.verificationcode==code:
+
                    self.retjson['code']=10004
                    self.retjson['content']=u'验证码验证成功'
                else:
@@ -57,6 +59,7 @@ class RegisterHandler(BaseHandler):
             except:
                 self.retjson['code']=10007
                 self.retjson['content']=u'该手机号码未发送验证码'
+
         elif type=='10003': #注册详细信息
             m_password=self.get_argument('password')
             m_nick_name=self.get_argument('nickName')  # 昵称
