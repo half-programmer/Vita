@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/createAll.py" afterPath="$PROJECT_DIR$/Database/createAll.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegisterHandler.py" afterPath="$PROJECT_DIR$/RegisterHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/messsage.py" afterPath="$PROJECT_DIR$/messsage.py" />
-    </list>
+    <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="" />
     <ignored path="Vita.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +48,8 @@
       <file leaf-file-name="ActivityAskHandler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ActivityAskHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-341">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="1388">
+              <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
               </folding>
@@ -871,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ActivityAskHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="1388">
+          <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
