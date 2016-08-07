@@ -4,6 +4,7 @@ import tornado.httpserver
 import  tornado.ioloop
 import  tornado.options
 import tornado.web
+from loginHandler import LoginHandler
 from sqlalchemy.orm import scoped_session, sessionmaker
 from tornado.options import define, options
 from Database.models import engine
@@ -23,10 +24,12 @@ class Application(tornado.web.Application):
             (r"/appointment/create", CreateAppointment),
             (r"/appointment/ask", AskAppointment),
             (r"/appointment/register",RegistAppointment),
+            (r"/login",LoginHandler),
             (r"/regist", RegisterHandler),
             (r"/Activity/create", ActivityCommit),
             (r"/Activity/ask", AskActivity),
             (r"/Activity/register", ActivityJoin),
+
         ]
         tornado.web.Application.__init__(self, handlers)
         self.db = scoped_session(sessionmaker(bind=engine,

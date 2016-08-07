@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
 <<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="" />
@@ -14,6 +15,12 @@
     <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegisterHandler.py" afterPath="$PROJECT_DIR$/RegisterHandler.py" />
 >>>>>>> u增加登录
+=======
+    <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loginHandler.py" afterPath="$PROJECT_DIR$/loginHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+>>>>>>> 登录部分完善
     </list>
     <ignored path="Vita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +61,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
             <state relative-caret-position="304">
               <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+=======
+            <state relative-caret-position="435">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+>>>>>>> 登录部分完善
               <folding>
                 <element signature="e#46#71#0" expanded="true" />
               </folding>
@@ -91,8 +103,13 @@
       <file leaf-file-name="guannan.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guannan.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
             <state relative-caret-position="2001">
               <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+=======
+            <state relative-caret-position="754">
+              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+>>>>>>> 登录部分完善
               <folding />
 >>>>>>> first commit
 =======
@@ -130,8 +147,13 @@
         <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
 >>>>>>> u增加登录
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
             <state relative-caret-position="-561">
               <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+=======
+            <state relative-caret-position="493">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+>>>>>>> 登录部分完善
               <folding>
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
                 <element signature="e#57#163#0" expanded="true" />
@@ -234,6 +256,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
 <<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="false">
@@ -242,6 +265,18 @@
             <state relative-caret-position="171">
               <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
 =======
+=======
+      <file leaf-file-name="tables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/tables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 登录部分完善
       <file leaf-file-name="AppointmentFunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -271,6 +306,7 @@
       <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commonFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
             <state relative-caret-position="232">
               <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
 >>>>>>> first commit
@@ -281,6 +317,10 @@
             <state relative-caret-position="147">
               <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="103" selection-end-column="39" />
 >>>>>>> u增加登录
+=======
+            <state relative-caret-position="319">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+>>>>>>> 登录部分完善
               <folding />
             </state>
           </provider>
@@ -365,7 +405,6 @@
         <option value="$PROJECT_DIR$/ActivityFuction.py" />
         <option value="$PROJECT_DIR$/ActivityHandler.py" />
         <option value="$PROJECT_DIR$/ActivityAskHandler.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/uplodepic.py" />
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
         <option value="$PROJECT_DIR$/Database/tables.py" />
@@ -373,6 +412,12 @@
         <option value="$PROJECT_DIR$/Database/createAll.py" />
         <option value="$PROJECT_DIR$/messsage.py" />
         <option value="$PROJECT_DIR$/RegisterHandler.py" />
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
+=======
+        <option value="$PROJECT_DIR$/Database/tables.py" />
+        <option value="$PROJECT_DIR$/loginHandler.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+>>>>>>> 登录部分完善
       </list>
     </option>
   </component>
@@ -402,6 +447,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
     <option name="x" value="-8" />
     <option name="width" value="1924" />
@@ -431,6 +477,12 @@
     <option name="width" value="1294" />
     <option name="height" value="728" />
 >>>>>>> u增加登录
+=======
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+>>>>>>> 登录部分完善
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -457,6 +509,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
 <<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <pane id="Scope" />
@@ -467,6 +520,8 @@
       <pane id="Scratches" />
       <pane id="Scope" />
 >>>>>>> u增加登录
+=======
+>>>>>>> 登录部分完善
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -506,7 +561,11 @@
 =======
       <pane id="Scratches" />
       <pane id="Scope" />
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
 >>>>>>> first commit
+=======
+      <pane id="Scratches" />
+>>>>>>> 登录部分完善
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -940,6 +999,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
     <frame x="0" y="0" width="1294" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -970,6 +1030,15 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2651274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+=======
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2079314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 登录部分完善
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1750,7 +1819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1810,6 +1878,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
 <<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1830,6 +1899,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uplodepic.py">
 >>>>>>> u增加登录
+=======
+    <entry file="file://F:/python2711/Lib/site-packages/MySQLdb/connections.py" />
+    <entry file="file://$PROJECT_DIR$/ActivityAskHandler.py">
+>>>>>>> 登录部分完善
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="50" column="90" selection-start-line="50" selection-start-column="90" selection-end-line="50" selection-end-column="90" />
@@ -1919,6 +1992,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -1953,6 +2027,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270">
           <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+=======
+    <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+>>>>>>> 登录部分完善
           <folding>
             <element signature="e#15#26#0" expanded="true" />
 =======
@@ -1966,6 +2046,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
     <entry file="file://F:/python2711/Lib/site-packages/MySQLdb/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
@@ -2001,6 +2082,8 @@
     </entry>
 <<<<<<< 372ca34d566d1d820e0106580778f724835b5751
 <<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
+=======
+>>>>>>> 登录部分完善
     <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -2025,6 +2108,7 @@
 <<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/ActivityAskHandler.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
         <state relative-caret-position="1388">
           <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
           <folding>
@@ -2038,17 +2122,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="103" selection-end-column="39" />
+=======
+        <state relative-caret-position="319">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+>>>>>>> 登录部分完善
           <folding />
 >>>>>>> first commit
         </state>
       </provider>
     </entry>
+<<<<<<< 585fda9ff03d54b2a11360ebe9d6ee69a7394ceb
     <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Database/createAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loginHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+>>>>>>> 登录部分完善
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="e#46#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
