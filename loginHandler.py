@@ -14,7 +14,7 @@ class LoginHandler(BaseHandler):
         if not m_phone or not m_password:
             retjson['code'] = 400
             retjson['content'] = u'用户名密码不能为空'
-            retjson = {'code': '400', 'content': 'None'}
+            retjson = {'code': '400', 'content': 'None','Code':''}
 
         # 防止重复注册
         else:
@@ -26,20 +26,21 @@ class LoginHandler(BaseHandler):
                         retjson['code'] = 200
                         retdata = []
                         data = dict(
-                            huodong="待加入"
-
+                            daohanglan="约拍首页顶部滑动图片,应设置与本地对比或增加一特定链接，图片未更新时应使用本地缓存",
+                            renqibang="人气榜前多少名,每人应该是一组数据",
                         )
 
-                        retjson['content'] = 10101
+                        retjson['Code'] = 10101
+                        retjson['data']=data
 
                     else:
-                        retjson['content'] = 10104  # 密码错误
+                        retjson['Code'] = 10104  # 密码错误
                 else:  # 用户不存在
-                    retjson['content'] = 10103
+                    retjson['Code'] = 10103
 
 
 
             except: # 还没有注册
                 retjson['code'] = 400
-                retjson['content'] = u'该用户名不存在'
+                retjson['Code'] = u'该用户名不存在'
             self.write(json.dumps(retjson, ensure_ascii=False, indent=2))
