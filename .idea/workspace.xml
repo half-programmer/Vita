@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="" />
     <ignored path="Vita.iws" />
     <ignored path=".idea/workspace.xml" />
+=======
+    <list default="true" id="ab424e8e-db34-4a59-9442-aad9547d6843" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commonFunctions.py" afterPath="$PROJECT_DIR$/commonFunctions.py" />
+    </list>
+    <ignored path="Activities.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+>>>>>>> first commit
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +22,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
+=======
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Activities$models.coverage" NAME="models Coverage Results" MODIFIED="1463486864808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Vita$createAll.coverage" NAME="createAll Coverage Results" MODIFIED="1467026486007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Database" />
+    <SUITE FILE_PATH="coverage/Activities$main.coverage" NAME="main Coverage Results" MODIFIED="1466670318656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Vita$main.coverage" NAME="main Coverage Results" MODIFIED="1467448458833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Vita$Appointfunctions.coverage" NAME="Appointfunctions Coverage Results" MODIFIED="1467433754767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+>>>>>>> first commit
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <favorites_list name="Vita" />
   </component>
   <component name="FileEditorManager">
@@ -29,10 +50,23 @@
               <folding>
                 <element signature="e#46#71#0" expanded="true" />
               </folding>
+=======
+    <favorites_list name="Activities" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="AppointmentsAskHandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1711">
+              <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+              <folding />
+>>>>>>> first commit
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="RegisterHandler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,10 +75,19 @@
               <folding>
                 <element signature="e#15#26#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="guannan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guannan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2001">
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+              <folding />
+>>>>>>> first commit
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="ActivityAskHandler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ActivityAskHandler.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,71 +95,141 @@
               <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
               <folding>
                 <element signature="e#24#35#0" expanded="true" />
+=======
+      <file leaf-file-name="tables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/tables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2465">
+              <caret line="87" column="115" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="115" />
+              <folding>
+                <element signature="e#57#163#0" expanded="true" />
+>>>>>>> first commit
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="AppointmentFunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
+=======
+      <file leaf-file-name="createAll.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Database/createAll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+>>>>>>> first commit
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="ActivityHandler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ActivityHandler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1596">
               <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
               <folding />
+=======
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <element signature="e#46#71#0" expanded="true" />
+              </folding>
+>>>>>>> first commit
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="messsage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/messsage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding />
+=======
+      <file leaf-file-name="AppointmentHandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppointmentHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2059">
+              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+>>>>>>> first commit
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commonFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+=======
+      <file leaf-file-name="AppointmentFunctions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> first commit
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="tables.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/tables.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1843">
               <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="103" selection-end-column="39" />
+=======
+      <file leaf-file-name="commonFunctions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commonFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+>>>>>>> first commit
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="createAll.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/createAll.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
+=======
+      <file leaf-file-name="RegisterHandler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+>>>>>>> first commit
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/models.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,6 +237,15 @@
               <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="e#24#60#0" expanded="true" />
+=======
+      <file leaf-file-name="BaseHandlerh.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BaseHandlerh.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#25#43#0" expanded="true" />
+>>>>>>> first commit
               </folding>
             </state>
           </provider>
@@ -144,6 +266,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
         <option value="$PROJECT_DIR$/ActivityFuction.py" />
         <option value="$PROJECT_DIR$/ActivityHandler.py" />
         <option value="$PROJECT_DIR$/ActivityAskHandler.py" />
@@ -160,6 +283,62 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1294" />
     <option name="height" value="728" />
+=======
+        <option value="$PROJECT_DIR$/Basehandler.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/tables.py" />
+        <option value="$PROJECT_DIR$/BaseHandlerh.py" />
+        <option value="$PROJECT_DIR$/introduction" />
+        <option value="$PROJECT_DIR$/Database/commentHandler.py" />
+        <option value="$PROJECT_DIR$/askActivity.py" />
+        <option value="$PROJECT_DIR$/guannan.py" />
+        <option value="$PROJECT_DIR$/commentHandler.py" />
+        <option value="$PROJECT_DIR$/likeHandler.py" />
+        <option value="$PROJECT_DIR$/CreateAppointment.py" />
+        <option value="$PROJECT_DIR$/Database/createAll.py" />
+        <option value="$PROJECT_DIR$/Database/models.py" />
+        <option value="$PROJECT_DIR$/RegisterHandler.py" />
+        <option value="$PROJECT_DIR$/AskHandler.py" />
+        <option value="$PROJECT_DIR$/Appointfunctions" />
+        <option value="$PROJECT_DIR$/AppointmentsAskHandler.py" />
+        <option value="$PROJECT_DIR$/Database/tables.py" />
+        <option value="$PROJECT_DIR$/AppointmentFunctions.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/AppointmentHandler.py" />
+        <option value="$PROJECT_DIR$/commonFunctions.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1924" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyArgumentListInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+>>>>>>> first commit
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,8 +365,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <pane id="Scope" />
       <pane id="Scratches" />
+=======
+>>>>>>> first commit
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,12 +404,70 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
+=======
+      <pane id="Scratches" />
+      <pane id="Scope" />
+>>>>>>> first commit
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
   </component>
   <component name="RunManager" selected="Python.createAll">
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Server\Project\Activities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Server\Project\Activities" />
+      <recent name="E:\Server\Project\Activities\Database" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Server\Project\Activities\Database\models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+>>>>>>> first commit
     <configuration default="false" name="createAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,12 +479,89 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Database/createAll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
+=======
+    <configuration default="false" name="Appointfunctions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Appointfunctions" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+>>>>>>> first commit
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,7 +573,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -271,7 +593,28 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="Activities" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+>>>>>>> first commit
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -283,7 +626,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -302,7 +650,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -321,7 +674,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -342,7 +700,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -364,7 +727,12 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <module name="Vita" />
+=======
+      <module name="Activities" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+>>>>>>> first commit
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -379,12 +747,27 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Python.createAll" />
     </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Python.createAll" />
+=======
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.models" />
+      <item index="2" class="java.lang.String" itemvalue="Python.createAll" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Appointfunctions" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Appointfunctions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.createAll" />
+        <item index="3" class="java.lang.String" itemvalue="Python.models" />
+>>>>>>> first commit
       </list>
     </recent_temporary>
   </component>
@@ -396,6 +779,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <changelist id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="" />
       <created>1467767150507</created>
       <option name="number" value="Default" />
@@ -415,16 +799,55 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <changelist id="ab424e8e-db34-4a59-9442-aad9547d6843" name="Default" comment="" />
+      <created>1463215863928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1463215863928</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12526998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07562077" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> first commit
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2614155" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> first commit
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -440,11 +863,37 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
       <option name="time" value="1" />
+=======
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/BaseHandlerh.py</url>
+          <line>9</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/commentHandler.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AppointmentHandler.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/AppointmentHandler.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+>>>>>>> first commit
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -457,10 +906,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="84" />
+=======
+    <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+>>>>>>> first commit
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/AppointmentHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -469,10 +925,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/models.py">
+=======
+    <entry file="file://$PROJECT_DIR$/likeHandler.py" />
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/ext/declarative/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/tables.py">
+>>>>>>> first commit
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
             <element signature="e#24#60#0" expanded="true" />
           </folding>
         </state>
@@ -484,10 +952,14 @@
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#25#43#0" expanded="false" />
+=======
+            <element signature="e#57#163#0" expanded="true" />
+>>>>>>> first commit
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/Database/createAll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -501,19 +973,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/Database/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> first commit
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="319">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+>>>>>>> first commit
           <folding>
             <element signature="e#46#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -550,20 +1041,70 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#24#60#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/BaseHandlerh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/engine/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2030">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basehandler.py" />
+    <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/likeHandler.py" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#46#71#0" expanded="true" />
+>>>>>>> first commit
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BaseHandlerh.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
         <state relative-caret-position="285">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#25#43#0" expanded="false" />
+=======
+        <state relative-caret-position="29">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+>>>>>>> first commit
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/Database/createAll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -600,10 +1141,42 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/Database/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10150">
+          <caret line="385" column="0" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/engine/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2030">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basehandler.py" />
+>>>>>>> first commit
     <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
         </state>
       </provider>
     </entry>
@@ -611,10 +1184,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+>>>>>>> first commit
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/commonFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -646,10 +1222,19 @@
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#25#43#0" expanded="false" />
+=======
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#46#71#0" expanded="true" />
+>>>>>>> first commit
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/Database/createAll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -659,6 +1244,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/tables.py">
+=======
+    <entry file="file://$PROJECT_DIR$/Basehandler.py" />
+    <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
+>>>>>>> first commit
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -666,6 +1255,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -680,12 +1270,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+>>>>>>> first commit
           <folding>
             <element signature="e#46#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -755,12 +1352,76 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guannan.py">
+=======
+    <entry file="file://$PROJECT_DIR$/Basehandler.py" />
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/engine/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10150">
+          <caret line="385" column="0" selection-start-line="385" selection-start-column="0" selection-end-line="385" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basehandler.py" />
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/dialects/mysql/mysqldb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2436">
+          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/engine/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2030">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/engine/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60987">
+          <caret line="2103" column="0" selection-start-line="2103" selection-start-column="0" selection-end-line="2103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/tornado-4.3-py2.7-win-amd64.egg/tornado/web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40803">
+          <caret line="1442" column="0" selection-start-line="1442" selection-start-column="0" selection-end-line="1442" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/ext/declarative/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/orm/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77575">
+          <caret line="2694" column="20" selection-start-line="2694" selection-start-column="20" selection-end-line="2694" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commentHandler.py" />
+    <entry file="file://$PROJECT_DIR$/likeHandler.py" />
+    <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/sqlalchemy/sql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="1190" column="0" selection-start-line="1190" selection-start-column="0" selection-end-line="1190" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database/__init__.py">
+>>>>>>> first commit
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/BaseHandlerh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -783,28 +1444,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1596">
           <caret line="84" column="57" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
+=======
+    <entry file="file://$PROJECT_DIR$/Database/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appointfunctions" />
+    <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+>>>>>>> first commit
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/commonFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/AppointmentsAskHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1711">
+          <caret line="61" column="46" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+>>>>>>> first commit
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
             <element signature="e#46#71#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/AppointmentHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2059">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+>>>>>>> first commit
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://F:/python2711/Lib/site-packages/MySQLdb/connections.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
@@ -818,21 +1517,38 @@
           <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="e#24#60#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+>>>>>>> first commit
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/tables.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
         <state relative-caret-position="1843">
           <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="103" selection-end-column="39" />
           <folding />
+=======
+        <state relative-caret-position="2465">
+          <caret line="87" column="115" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="115" />
+          <folding>
+            <element signature="e#57#163#0" expanded="true" />
+          </folding>
+>>>>>>> first commit
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Database/createAll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
@@ -852,18 +1568,51 @@
           <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BaseHandlerh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#25#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#46#71#0" expanded="true" />
+>>>>>>> first commit
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/AppointmentFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+=======
+    <entry file="file://$PROJECT_DIR$/guannan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2001">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+>>>>>>> first commit
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
     <entry file="file://$PROJECT_DIR$/ActivityAskHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1388">
@@ -871,6 +1620,13 @@
           <folding>
             <element signature="e#24#35#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/commonFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+>>>>>>> first commit
         </state>
       </provider>
     </entry>
