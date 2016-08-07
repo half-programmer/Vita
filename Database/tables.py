@@ -9,7 +9,7 @@ from sqlalchemy.types import CHAR, Integer, VARCHAR
 import sys
 reload(sys)
 from models import Base
-
+# from models import engine
 
 # 每个类对应一个表
 class User(Base): # 用户表
@@ -17,12 +17,13 @@ class User(Base): # 用户表
 
     userID = Column(Integer, nullable=False, primary_key=True)  # 主键
     password = Column(VARCHAR(64), nullable=False)  # 密码
+    phone = Column(VARCHAR(11),nullable=False)  # 手机
     nick_name = Column(VARCHAR(64), nullable=False)  # 昵称
-    real_name = Column(VARCHAR(64), nullable=False)
+    real_name = Column(VARCHAR(64))
     level = Column(Integer, default=1)  # 等级
     location = Column(VARCHAR(128))  # 住址
     birthday = Column(DateTime)  # 生日
-    phone = Column(VARCHAR(11))  # 手机
+
     regist_time = Column(DateTime)  # 注册时间
 
 
@@ -106,7 +107,7 @@ class Verification(Base):#记录每个用户的验证码和手机
     verificationcode=Column(VARCHAR(6))
 
 
-
+# Base.metadata.create_all(engine)
 
 
 

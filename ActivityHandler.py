@@ -4,7 +4,7 @@ from sqlalchemy import and_
 __author__='lanwei'
 import hashlib
 import io
-from PIL import Image
+#from PIL import Image
 import  json
 from  Database.tables import User,Activity,ActivityParticipate
 from  BaseHandlerh import BaseHandler

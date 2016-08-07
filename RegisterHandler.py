@@ -20,21 +20,13 @@ class RegisterHandler(BaseHandler):
     retjson = {'code': '400', 'content': 'None'}
     def post(self):
         type = self.get_argument('type', default='unsolved')
-<<<<<<< HEAD
         if type == 10001:  # 验证手机号
-=======
-        if type==10001:#验证手机号
->>>>>>> 9479bea517925eac45d774405fedd91a38cee172
             m_phone=self.get_argument('phone')
             try:
                 user = self.db.query(User).filter(User.phone == m_phone).one()
                 if user:
                     self.retjson['content'] = u"该手机号已经被注册，请更换手机号或直接登录"
-<<<<<<< HEAD
                     self.retjson['code'] = 10005
-=======
-                    self.retjson['code']=10005
->>>>>>> 9479bea517925eac45d774405fedd91a38cee172
             except:
                 code=generate_verification_code()
                 veri=Verification(

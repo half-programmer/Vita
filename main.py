@@ -10,9 +10,9 @@ from tornado.options import define, options
 from Database.models import engine
 from AppointmentsAskHandler import AskAppointment
 from  Database.tables import Activity,ActivityParticipate,Appointment,AppointmenmtEntry,AppointmentRegister,Estimation,Style,User
-from AppointmentHandler import CreateAppointment,RegistAppointment
+from AppointmentHandler import CreateAppointment, RegistAppointment
 from RegisterHandler import RegisterHandler
-from ActivityHandler import ActivityCommit,ActivityJoin
+from ActivityHandler import ActivityCommit, ActivityJoin
 from ActivityAskHandler import AskActivity
 
 define("port", default=800, help="run on the given port", type=int)
@@ -23,7 +23,7 @@ class Application(tornado.web.Application):
         handlers = [
             (r"/appointment/create", CreateAppointment),
             (r"/appointment/ask", AskAppointment),
-            (r"/appointment/register",RegistAppointment),
+            (r"/appointment/register", RegistAppointment),
             (r"/login",LoginHandler),
             (r"/regist", RegisterHandler),
             (r"/Activity/create", ActivityCommit),

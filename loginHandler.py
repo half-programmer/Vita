@@ -1,5 +1,5 @@
 # coding=utf-8
-from sqlalchemy.dialects.postgresql import json
+import json
 
 from BaseHandlerh import BaseHandler
 from Database.tables import Appointment, User
@@ -7,40 +7,56 @@ from Database.tables import Appointment, User
 
 class LoginHandler(BaseHandler):
 
+    retjson = {'code': '400', 'content': u'未处理 ', 'Code': ''}
     def post(self):
+        askcode = self.get_argument('askcode')
         m_phone = self.get_argument('phone')
-        m_password = self.get_argument('password')
-        retjson = {'code' : '400', 'content' : u'未处理 '}
-        if not m_phone or not m_password:
-            retjson['code'] = 400
-            retjson['content'] = u'用户名密码不能为空'
-            retjson = {'code': '400', 'content': 'None','Code':''}
+        if askcode == '10106':  # 手动登录
+            m_password = self.get_argument('password')
+            if not m_phone or not m_password:
+                LoginHandler.retjson['code'] = 400
+                LoginHandler.retjson['content'] = u'用户名密码不能为空'
 
         # 防止重复注册
-        else:
-            try:
-                user = self.db.query(User).filter(User.phone == m_phone).one()
-                if user:  # 用户存在
-                    password = user.password
-                    if m_password == password:  # 密码正确
-                        retjson['code'] = 200
-                        retdata = []
-                        data = dict(
+            else:
+                try:
+                    user = self.db.query(User).filter(User.phone == m_phone).one()
+                    if user:  # 用户存在
+                        password = user.password
+                        if m_password == password:  # 密码正确
+                            self.retjson['code'] = 200
+                            retdata = []
+                            user_model = dict(
+                                id=user.userID,
+                                phone=user.phone,
+                                nick_name=user.nick_name,
+                                avatar="图片链接",
+                            )
+                            data = dict(
+                            code="10106",
+                            authKey="待生成",
+                            UserModer=user_model,
                             daohanglan="约拍首页顶部滑动图片,应设置与本地对比或增加一特定链接，图片未更新时应使用本地缓存",
-                            renqibang="人气榜前多少名,每人应该是一组数据",
-                        )
+                            renqibang="人气榜前多少名,每人应该是一组数据,用列表存",
+                            )
+                            retdata.append(data)
+                            LoginHandler.retjson['Code'] = 10101
+                            LoginHandler.retjson['content'] = retdata
 
-                        retjson['Code'] = 10101
-                        retjson['data']=data
+                        else:
+                            LoginHandler.retjson['Code'] = 10104  # 密码错误
+                    else:  # 用户不存在
+                        LoginHandler. retjson['Code'] = 10103
+                except Exception, e:  # 还没有注册
+                    print "异常："
+                    print e
+                    self.retjson['code'] = 400
+                    self.retjson['Code'] = u'该用户名不存在'
+        elif askcode == '10105':  # 自动登录
+            authcode = self.get_argument("authcode")  # 授权码
+        else:
+            LoginHandler.retjson['data'] = "去你妈了个吧"
+        self.write(json.dumps(LoginHandler.retjson, ensure_ascii=False, indent=2))
 
-                    else:
-                        retjson['Code'] = 10104  # 密码错误
-                else:  # 用户不存在
-                    retjson['Code'] = 10103
 
 
-
-            except: # 还没有注册
-                retjson['code'] = 400
-                retjson['Code'] = u'该用户名不存在'
-            self.write(json.dumps(retjson, ensure_ascii=False, indent=2))
