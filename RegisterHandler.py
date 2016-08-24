@@ -73,7 +73,9 @@ class RegisterHandler(BaseHandler):
                     level=1,  #  新用户注册默认level为1
                     location='',
                     birthday='',
-                    phone=m_phone)
+                    phone=m_phone,
+                    regist_time=''
+            )
             try:
                 same_nickname_user = self.db.query(User).filter(User.nick_name == m_nick_name).one()
                 if same_nickname_user:  # 该昵称已被使用
