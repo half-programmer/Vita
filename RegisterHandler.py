@@ -48,7 +48,7 @@ class RegisterHandler(BaseHandler):
             code=self.get_argument('code')
             try:
                item=self.db.query(Verification).filter(Verification.phone==m_phone).one()
-               if item.verification==code:
+               if item.verificationcode==code:
                    self.retjson['code']=10004
                    self.retjson['contents']=u'验证码验证成功'
                else:
