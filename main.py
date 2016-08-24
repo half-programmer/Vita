@@ -23,7 +23,6 @@ class Application(tornado.web.Application):
         handlers = [
             (r"/appointment/create", CreateAppointment),
             (r"/appointment/ask", AskAppointment),
-
             (r"/appointment/register", RegistAppointment),
             (r"/login",LoginHandler),
             (r"/regist", RegisterHandler),
