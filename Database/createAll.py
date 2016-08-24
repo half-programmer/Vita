@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from models import Base
+from Database.models import Base
 
-import tables
+#from models import Base
+
+#import tables
 from models import engine
 import Database.tables
 

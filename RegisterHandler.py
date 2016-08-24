@@ -20,16 +20,13 @@ class RegisterHandler(BaseHandler):
     retjson = {'code': '400', 'contents': 'None'}
     def post(self):
         type = self.get_argument('type', default='unsolved')
-
-        if type=='10001':#验证手机号
+        if type == 10001:  # 验证手机号
             m_phone=self.get_argument('phone')
             try:
                 user = self.db.query(User).filter(User.phone == m_phone).one()
                 if user:
-                    self.retjson['contents'] = u"该手机号已经被注册，请更换手机号或直接登录"
-
-                    self.retjson['code']=10005
-
+                    self.retjson['content'] = u"该手机号已经被注册，请更换手机号或直接登录"
+                    self.retjson['code'] = 10005
             except:
                 code=generate_verification_code()
                 veri=Verification(
@@ -51,8 +48,7 @@ class RegisterHandler(BaseHandler):
             code=self.get_argument('code')
             try:
                item=self.db.query(Verification).filter(Verification.phone==m_phone).one()
-               if item.verificationcode==code:
-
+               if item.verification==code:
                    self.retjson['code']=10004
                    self.retjson['contents']=u'验证码验证成功'
                else:
