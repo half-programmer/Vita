@@ -9,7 +9,7 @@ class LoginHandler(BaseHandler):
 
     retjson = {'code': '400', 'content': u'未处理 ', 'Code': ''}
     def post(self):
-        askcode = self.get_argument('askcode')
+        askcode = self.get_argument('askCode')
         m_phone = self.get_argument('phone')
         if askcode == '10106':  # 手动登录
             m_password = self.get_argument('password')
@@ -33,11 +33,13 @@ class LoginHandler(BaseHandler):
                                 avatar="图片链接",
                             )
                             data = dict(
-                            code="10106",
+                            askCode="10106",
                             authKey="待生成",
-                            UserModer=user_model,
+                            userModer=user_model,
                             daohanglan="约拍首页顶部滑动图片,应设置与本地对比或增加一特定链接，图片未更新时应使用本地缓存",
-                            renqibang="人气榜前多少名,每人应该是一组数据,用列表存",
+                            photoList="摄影师榜前十名,每人是一组数据,用python字典存,返回后可用JSON解析",
+                            modelList="模特榜前十名，每人是一组数据,用python字典存,返回后可用JSON解析",
+                            headImage="用户头像url"
                             )
                             retdata.append(data)
                             LoginHandler.retjson['Code'] = 10101
