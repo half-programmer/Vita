@@ -1,12 +1,10 @@
 # coding=utf-8
 import json
-
 from BaseHandlerh import BaseHandler
 from Database.tables import Appointment, User
 
 
 class LoginHandler(BaseHandler):
-
     retjson = {'code': '400', 'content': u'未处理 ', 'Code': ''}
     def post(self):
         askcode = self.get_argument('askCode')
@@ -59,6 +57,3 @@ class LoginHandler(BaseHandler):
         else:
             LoginHandler.retjson['data'] = "去你妈了个吧"
         self.write(json.dumps(LoginHandler.retjson, ensure_ascii=False, indent=2))
-
-
-

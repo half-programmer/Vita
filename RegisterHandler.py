@@ -20,13 +20,16 @@ class RegisterHandler(BaseHandler):
     retjson = {'code': '400', 'content': 'None'}
     def post(self):
         type = self.get_argument('type', default='unsolved')
-        if type == 10001:  # 验证手机号
+
+        if type=='10001':#验证手机号
             m_phone=self.get_argument('phone')
             try:
                 user = self.db.query(User).filter(User.phone == m_phone).one()
                 if user:
                     self.retjson['content'] = u"该手机号已经被注册，请更换手机号或直接登录"
-                    self.retjson['code'] = 10005
+
+                    self.retjson['code']=10005
+
             except:
                 code=generate_verification_code()
                 veri=Verification(
@@ -38,17 +41,18 @@ class RegisterHandler(BaseHandler):
                     self.db.commit()
                     self.retjson['code'] = 10004 # success
                     self.retjson['content'] = u'手机号验证成功，发送验证码'
-                    message(code, m_phone)
                 except:
                     self.db.rollback()
                     self.retjson['code'] = 10009  # Request Timeout
                     self.retjson['content'] = u'服务器错误'
-        elif type==10002: #验证验证码
+                message(code, m_phone)
+        elif type=='10002': #验证验证码
             m_phone=self.get_argument('phone')
             code=self.get_argument('code')
             try:
                item=self.db.query(Verification).filter(Verification.phone==m_phone).one()
-               if item.verification==code:
+               if item.verificationcode==code:
+
                    self.retjson['code']=10004
                    self.retjson['content']=u'验证码验证成功'
                else:
@@ -57,7 +61,8 @@ class RegisterHandler(BaseHandler):
             except:
                 self.retjson['code']=10007
                 self.retjson['content']=u'该手机号码未发送验证码'
-        elif type==10003: #注册详细信息
+
+        elif type=='10003': #注册详细信息
             m_password=self.get_argument('password')
             m_nick_name=self.get_argument('nickName')  # 昵称
             m_phone=self.get_argument('phone')

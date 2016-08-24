@@ -10,5 +10,17 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.9 (C:\Program Files (x86)\Python27\python.exe)" project-jdk-type="Python SDK" />
+=======
+<<<<<<< 372ca34d566d1d820e0106580778f724835b5751
+<<<<<<< 0cc4c75f0b0b794690d0f5f08d2870bd28e58660
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.11 (F:\python2711\python.exe)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.9 (C:\Program Files (x86)\Python27\python.exe)" project-jdk-type="Python SDK" />
+>>>>>>> first commit
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 2.7.11 (F:\python2711\python.exe)" project-jdk-type="Python SDK" />
+>>>>>>> u增加登录
+>>>>>>> 7d6d33e5b640c3be8399381c6f8522dea0489958
 </project>
