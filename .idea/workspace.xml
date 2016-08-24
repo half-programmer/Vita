@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7faa0ca0-9712-458b-a9b2-70490ab51aab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Vita.iml" afterPath="$PROJECT_DIR$/.idea/Vita.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/models.py" afterPath="$PROJECT_DIR$/Database/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RegisterHandler.py" afterPath="$PROJECT_DIR$/RegisterHandler.py" />
     </list>
     <ignored path="Vita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,21 +69,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterHandler.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegisterHandler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            <state relative-caret-position="-567">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
                 <element signature="e#15#26#0" expanded="true" />
-                <marker date="1472023270339" expanded="true" signature="1925:2026" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="1925:2148" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="1925:2267" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="2047:2148" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="2168:2267" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="2824:3106" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="2964:3106" ph="..." />
-                <marker date="1472023270339" expanded="true" signature="3211:3375" ph="..." />
               </folding>
             </state>
           </provider>
@@ -157,7 +146,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Database/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -191,10 +180,10 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/ActivityHandler.py" />
         <option value="$PROJECT_DIR$/Database/tables.py" />
-        <option value="$PROJECT_DIR$/RegisterHandler.py" />
         <option value="$PROJECT_DIR$/loginHandler.py" />
         <option value="$PROJECT_DIR$/Database/createAll.py" />
         <option value="$PROJECT_DIR$/Database/models.py" />
+        <option value="$PROJECT_DIR$/RegisterHandler.py" />
       </list>
     </option>
   </component>
@@ -669,14 +658,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
-            <marker date="1472023270339" expanded="true" signature="1925:2026" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2047:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2168:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2824:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2964:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="3211:3375" ph="..." />
           </folding>
         </state>
       </provider>
@@ -776,14 +757,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
-            <marker date="1472023270339" expanded="true" signature="1925:2026" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2047:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2168:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2824:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2964:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="3211:3375" ph="..." />
           </folding>
         </state>
       </provider>
@@ -836,14 +809,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
-            <marker date="1472023270339" expanded="true" signature="1925:2026" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2047:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2168:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2824:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2964:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="3211:3375" ph="..." />
           </folding>
         </state>
       </provider>
@@ -978,24 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-            <marker date="1472023270339" expanded="true" signature="1925:2026" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="1925:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2047:2148" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2168:2267" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2824:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="2964:3106" ph="..." />
-            <marker date="1472023270339" expanded="true" signature="3211:3375" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/loginHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1023,6 +970,16 @@
           <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
           <folding>
             <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegisterHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-567">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

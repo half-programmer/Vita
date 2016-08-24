@@ -20,7 +20,7 @@ class RegisterHandler(BaseHandler):
     retjson = {'code': '400', 'contents': 'None'}
     def post(self):
         type = self.get_argument('type', default='unsolved')
-        if type == 10001:  # 验证手机号
+        if type == '10001':  # 验证手机号
             m_phone=self.get_argument('phone')
             try:
                 user = self.db.query(User).filter(User.phone == m_phone).one()
