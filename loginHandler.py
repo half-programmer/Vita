@@ -7,7 +7,7 @@ from Database.tables import Appointment, User
 
 class LoginHandler(BaseHandler):
 
-    retjson = {'code': '400', 'content': u'未处理 ', 'Code': ''}
+    retjson = {'code': '400', 'contents': u'未处理 ', 'Code': ''}
     def post(self):
         askcode = self.get_argument('askCode')
         m_phone = self.get_argument('phone')
@@ -15,7 +15,7 @@ class LoginHandler(BaseHandler):
             m_password = self.get_argument('password')
             if not m_phone or not m_password:
                 LoginHandler.retjson['code'] = 400
-                LoginHandler.retjson['content'] = u'用户名密码不能为空'
+                LoginHandler.retjson['contents'] = u'用户名密码不能为空'
 
         # 防止重复注册
             else:
@@ -43,7 +43,7 @@ class LoginHandler(BaseHandler):
                             )
                             retdata.append(data)
                             LoginHandler.retjson['Code'] = 10101
-                            LoginHandler.retjson['content'] = retdata
+                            LoginHandler.retjson['contents'] = retdata
 
                         else:
                             LoginHandler.retjson['Code'] = 10104  # 密码错误

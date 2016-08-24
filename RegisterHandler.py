@@ -17,7 +17,7 @@ def generate_verification_code(len=6):
  return verification_code
 
 class RegisterHandler(BaseHandler):
-    retjson = {'code': '400', 'content': 'None'}
+    retjson = {'code': '400', 'contents': 'None'}
     def post(self):
         type = self.get_argument('type', default='unsolved')
         if type == 10001:  # 验证手机号
@@ -37,27 +37,28 @@ class RegisterHandler(BaseHandler):
                 try:
                     self.db.commit()
                     self.retjson['code'] = 10004 # success
-                    self.retjson['content'] = u'手机号验证成功，发送验证码'
-                    message(code, m_phone)
+                    self.retjson['contents'] = u'手机号验证成功，发送验证码'
                 except:
                     self.db.rollback()
                     self.retjson['code'] = 10009  # Request Timeout
-                    self.retjson['content'] = u'服务器错误'
-        elif type==10002: #验证验证码
+                    self.retjson['contents'] = u'服务器错误'
+                message(code, m_phone)
+        elif type=='10002': #验证验证码
             m_phone=self.get_argument('phone')
             code=self.get_argument('code')
             try:
                item=self.db.query(Verification).filter(Verification.phone==m_phone).one()
                if item.verification==code:
                    self.retjson['code']=10004
-                   self.retjson['content']=u'验证码验证成功'
+                   self.retjson['contents']=u'验证码验证成功'
                else:
                    self.retjson['code']=10006
-                   self.retjson['content']=u'验证码验证失败'
+                   self.retjson['contents']=u'验证码验证失败'
             except:
                 self.retjson['code']=10007
-                self.retjson['content']=u'该手机号码未发送验证码'
-        elif type==10003: #注册详细信息
+                self.retjson['contents']=u'该手机号码未发送验证码'
+
+        elif type=='10003': #注册详细信息
             m_password=self.get_argument('password')
             m_nick_name=self.get_argument('nickName')  # 昵称
             m_phone=self.get_argument('phone')
@@ -68,21 +69,23 @@ class RegisterHandler(BaseHandler):
                     level=1,  #  新用户注册默认level为1
                     location='',
                     birthday='',
-                    phone=m_phone)
+                    phone=m_phone,
+                    regist_time=''
+            )
             try:
                 same_nickname_user = self.db.query(User).filter(User.nick_name == m_nick_name).one()
                 if same_nickname_user:  # 该昵称已被使用
                     self.retjson['code'] = 10008  # Request Timeout
-                    self.retjson['content'] =u'该昵称已被使用，请更换昵称'
+                    self.retjson['contents'] =u'该昵称已被使用，请更换昵称'
             except: # 手机号和昵称皆没有被注册过
                     self.db.merge(new_user)
                     try:
                         self.db.commit()
                         self.retjson['code'] = 10004  # success
-                        self.retjson['content'] = u'注册成功'
+                        self.retjson['contents'] = u'注册成功'
                     except:
                         self.db.rollback()
                         self.retjson['code'] = 10009  # Request Timeout
-                        self.retjson['content'] = u'Some errors when commit to database, please try again'
+                        self.retjson['contents'] = u'Some errors when commit to database, please try again'
         self.write(json.dumps(self.retjson, ensure_ascii=False, indent=2))
 
