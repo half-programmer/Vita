@@ -55,5 +55,5 @@ class LoginHandler(BaseHandler):
         elif askcode == '10105':  # 自动登录
             authcode = self.get_argument("authcode")  # 授权码
         else:
-            LoginHandler.retjson['data'] = "去你妈了个吧"
+            LoginHandler.retjson['data'] = "去你妈了个吧爸爸"
         self.write(json.dumps(LoginHandler.retjson, ensure_ascii=False, indent=2))
